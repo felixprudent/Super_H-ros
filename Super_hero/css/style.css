@@ -1,0 +1,65 @@
+
+  
+  /* Style the links inside the navigation bar */
+  .parti1 a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .parti1 a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .parti1 a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+
+
+.titre
+{
+color:red;
+text-align: center;
+
+
+}
+
+.parti1
+{
+  background:linear-gradient(rgb(15, 15, 117), red);
+}
+
+body{
+ 
+  background:linear-gradient(to left,rgba(5, 29, 105, 0.912), rgb(158, 8, 8));
+}
+
+#actu{
+  display: flex;
+  flex-flow:column wrap;
+  justify-content: flex-start;
+}
+#actu h1{
+  color:white
+
+}
+#actu article{
+  color:white
+
+}
+#tt
+{
+
+  display: flex;
+
+  flex-flow: column-reverse wrap;
+}
